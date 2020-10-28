@@ -28,7 +28,7 @@ p {
   margin-bottom:20px;
   font-size: 20px;
   color: rgb(60, 60, 60);
-  font-family: 'Open Sans' !important;
+  font-family: 'Helvetica' !important;
   padding-top: 10px;
 }
 
@@ -74,7 +74,7 @@ a {
 }
 
 .btn-grey:hover {
-  background-color:#f7f4ed;
+  background-color:#fff;
   color:#000;
   border: 1px solid #000;
 }
