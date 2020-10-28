@@ -1,0 +1,109 @@
+/* TODO: design your profile with CSS */
+/* FONTS & COLORS */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  color: #999999;
+  background-color: #f7f4ed;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 50px;
+  font-weight:200;
+  color: rgb(10, 10, 10);
+  line-height: 60px;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+  font-weight:400;
+/*  text-transform: uppercase;
+  letter-spacing: 5px;*/
+}
+
+p {
+  margin-bottom:20px;
+  font-size: 20px;
+  color: rgb(60, 60, 60);
+  font-family: 'Open Sans' !important;
+  padding-top: 10px;
+}
+
+a {
+  color:#000;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 200px;
+  font-family: 'Arial' !important
+}
+
+/* Generic Design */
+
+.card-presentation {
+  background-color:white;
+/*  border-radius:4px;*/
+/*  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
+/*  width:1200px;*/
+  margin-top: 30px; !important
+/*  margin-bottom: 30px; !important*/
+  margin: auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.avatar {
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+}
+
+.btn-grey {
+  background-color: rgb(40, 40, 40);
+  color:#fff;
+  padding:20px 30px;
+  font-family: 'Futura';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 60px;
+}
+
+.btn-grey:hover {
+  background-color:#f7f4ed;
+  color:#000;
+  border: 1px solid #000;
+}
+
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-social-media {
+  width:30px;
+}
+
+.social-media {
+  text-align: center;
+  background-color:white;
+  padding: 20px;
+/*  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
+  margin: 0 auto;
+  margin-top: 30px !important;
+/*  padding-top: 50px;*/
+}
