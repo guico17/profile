@@ -84,6 +84,13 @@ a {
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
+@media (max-width: 700px) {
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+}
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 10px;
